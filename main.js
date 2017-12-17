@@ -20,7 +20,7 @@ var SFX_SPRING_FREQ = 15000;
 var SFX_SPLASH_FREQ = 12000;
 var SFX_FLY_FREQ = 12000;
 var leftovers = { num_pobs: 0, pobs:[]};
-var ai = [ false, false, false, true ];
+var ai = [ false, false, false, false ];
 var img_objects;
 var img_rabbits;
 var img_level;
