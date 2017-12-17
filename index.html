@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<title>Jump'n'Bump - HTML5</title>
+<META NAME="description" CONTENT="An instant real-time multiplayer-only keyboard-crowding classic, this game pits up to four human-operated cute fuzzy widdle bunnies against each other for one goal only: lagomorphic cranial domination.">
+<link rel="shortcut icon" href="rabbit.ico" />
+<script type="text/javascript" src="sound.js"></script>
+<script type="text/javascript" src="object_gobs.js"></script>
+<script type="text/javascript" src="number_gobs.js"></script>
+<script type="text/javascript" src="rabbit_gobs.js"></script>
+<script type="text/javascript" src="level.js"></script>
+<script type="text/javascript" src="objects.js"></script>
+<script type="text/javascript" src="players.js"></script>
+<script type="text/javascript" src="main.js"></script>
+<style type="text/css">
+  canvas { border: 0px solid black; width: 100%; }
+  img.resource { display:none; }
+</style>
+<body onload="init()" text="#FFFFFF" bgcolor="#000000">
+<img class="resource" id='level' src='level.png'/>
+<img class="resource" id='mask' src='mask.png'/>
+<img class="resource" id='objects' src='objects.png'/>
+<img class="resource" id='numbers' src='numbers.png'/>
+<img class="resource" id='rabbits' src='rabbit.png'/>
+<canvas id="screen" width="400" height="256"></canvas>
+</html>
