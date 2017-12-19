@@ -337,7 +337,9 @@ function cpu_move() {
             }
 
             else if(tar_posy <= cur_posy) {  // target on the upper side
-                jm=true;
+                if (Math.random() > 0.5) {  // add randomness
+                  jm=true;
+                }
             } else {  // target below
                 jm=false;
             }
